@@ -1,0 +1,12 @@
+.nav_head{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
