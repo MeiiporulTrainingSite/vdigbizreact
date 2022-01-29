@@ -59,7 +59,7 @@ border-bottom: 1px solid darkblue;
    
 }
 .home_get{
-    width: 8vw;
+    width: 10vw;
     margin-left: 0;
 }
 .get_in_touch p{
@@ -69,6 +69,9 @@ border-bottom: 1px solid darkblue;
     padding: 40px 100px;
     display: grid;
     grid-template-columns: 30% 10% 40%;
-    gap: 100px;
+    gap: 10%;
+}
+.home_touch p{
+    font-size: 1rem;
 }
 
