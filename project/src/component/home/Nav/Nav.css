@@ -22,24 +22,30 @@
 .menu li a{
     text-decoration: none;
     color:white;
-    position: relative;;
+    position: relative;
+    transition: 0.5s;
+    font-size: 0.9rem;
 }
 
 .service-list-home {
     display: none;
     position: absolute;
     top: 100%;
-    right: 5px;
-    width: 220px;
+    right: 12px;
+    width: 210px;
     list-style: none;
     background-color: rgb(65, 180, 225);
     padding: 10px;
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
   .service-list-home li {
     border-bottom: 1px solid cornsilk;
-    font-size: 1rem;
-    transition: 0.5s;
+   
+    
+  }
+  .service-list-home li a{
+      font-size: 0.8rem;
+      transition: 0.5s;
   }
   .service-list-home li:hover {
     color: darkblue;
