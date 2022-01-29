@@ -45,6 +45,11 @@
     text-decoration: none;
     font-size: 0.8rem;
     color: darkblue;
+    transition: .5s;
+}
+.quicklinks_list li a:hover{
+color: darkcyan;
+border-bottom: 1px solid darkblue;
 }
 .get_in_touch{
     color: darkblue;

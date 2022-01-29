@@ -1,0 +1,13 @@
+.footer_home{
+   
+    width: 100%;
+    background-color: #1480be;
+    text-align: center;
+    padding: 4px;
+}
+.footer_home h1{
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.7rem;
+    
+}
