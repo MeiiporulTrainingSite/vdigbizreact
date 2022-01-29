@@ -8,20 +8,20 @@ export default function Nav() {
       <h1 className="home_logo">VDIGBIZ</h1>
       <ul className="menu">
         <li><Link to ="/">Home</Link></li>
-        <li>About</li>
-        <li>Our Team</li>
+        <li><Link to ="/about">About</Link></li>
+        <li><Link to ="/team">Our Team</Link></li>
         <li>
-          Service
+         <p className="home_service"><Link to ="/service"> Service</Link></p>
           <ul class="service-list-home">
-            <li> Analytics</li>
-            <li> Application Development</li>
-            <li> Mobile App Development</li>
-            <li> Consulting</li>
-            <li> Product Development</li>
-            <li> Application Maintenance</li>
+            <li><Link to ="/analytics"> Analytics</Link></li>
+            <li><Link to ="/appliction_dev"> Application Development</Link></li>
+            <li><Link to ="/mobile_app"> Mobile App Development</Link></li>
+            <li><Link to ="/consulting"> Consulting</Link></li>
+            <li><Link to ="/product"> Product Development</Link></li>
+            <li><Link to ="/appliction Maintenance"> Application Maintenance</Link></li>
           </ul>
         </li>
-        <li>Contact</li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </header>
   );
