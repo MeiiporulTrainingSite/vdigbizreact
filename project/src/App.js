@@ -12,6 +12,9 @@ export default function App() {
       <Route path="/" exact><HomePage/></Route>
       <Route path="/about"></Route>
       <Route path="/team"></Route>
+      <Route path="/service"></Route>
+      <Route path="/analytics"></Route>
+      <Route path="/appliction_dev"></Route>
     </Switch>
   </Layout>;
 }
