@@ -1,0 +1,142 @@
+/* body{
+  background:url(../../images/map1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+  .btn {
+    margin-top: 1vh;
+    width:100%;
+    background-color: rgb(2, 2, 27);
+    color: white;
+    height:4vh;
+    font-size: medium;
+    border-radius: 1.5vh;
+    
+  }
+  .btn:hover
+  {
+    color:darkblue;
+    background-color: white;
+  }
+  .contact_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/map.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 100;
+    
+    
+}
+.contact_page h1{
+
+    font-size: 2rem;
+    color: darkblue;
+}
+
+.formbox
+{
+  display: flex;
+  background:url(../../images/map1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8vh;
+  color:darkblue;
+  padding: 5vh;
+  align-items: center;
+  justify-content: center;
+}
+.formbox p{
+  font-size: 2rem;
+}
+/* .formbox img{
+  height:5vh;
+  width:15vw;
+} */
+.input
+{
+  border-radius: 1vh;
+  border:none;
+  height: 5vh;
+}
+.textarea
+{
+  border-radius: 1vh;
+  border:none;
+}
+.messagebox
+{
+  display: flex;
+  flex-direction: column;
+  gap:1vh;
+  margin: auto;
+background-color: white;
+margin-top:-5%;
+margin-left:30%;
+margin-right:8%;
+padding:5vh;
+width: 30vw;
+background-color:rgb(158, 172, 187);
+border-radius: 1vh;
+
+}
+.grid
+{
+ display: grid;
+ grid-template-columns: 33% 33% 33%;
+ grid-template-areas: "address phone email";
+ height:20vh;
+text-align: center;
+padding: 5vh;
+margin-top: 2vh;
+ 
+}
+.grid h1{
+  color:darkblue;
+  font-size: 1.2rem;
+}
+.grid p{
+  font-size: 0.7rem;
+}
+.address
+{
+  grid-area: "address";
+
+}
+.phone
+{
+  grid-area:"phone";
+}
+.email
+{
+  grid-area: "email";
+}
+.icon
+{
+  height:5vh;
+  width: 3vw;
+  border:1px solid;
+  margin-top: 2vh;
+  padding: 0.8vh;
+  border-radius: 50% 50% 50% 50%;
+  margin-bottom: 2vh;
+  color:white;
+  background-color: darkblue
+}
+.icon:hover
+{
+background-color: lightskyblue;
+color:darkblue;
+}
+.error
+{
+  font-size: 0.8rem;
+  color: red;
+}
+.label
+{
+  color: rgb(42, 42, 71);
+}
