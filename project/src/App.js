@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from "./component/Div/Layout";
 import { Switch,Route } from 'react-router-dom';
 import HomePage from './component/home/homepage';
-import AboutPage from './component/All_pages/about';
+import AboutPage from './component/All_pages/About/about';
 import Analytics from './component/All_pages/services/analytics';
 import Mobileapp from './component/All_pages/services/mobile_app';
 

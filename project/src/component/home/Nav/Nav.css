@@ -52,7 +52,7 @@
   }
   
   li:hover .service-list-home {
-    right:5%;
+    /* right:5%; */
     display: block;
     top: 40px;
   }
