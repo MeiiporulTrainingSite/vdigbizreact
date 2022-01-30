@@ -36,11 +36,12 @@ export default function () {
 
   return (
     <div>
-      <Div className="Contact_page">
+      <Div className="contact_page">
         <h1>Contact</h1>
     </Div>
     <div className="formbox">
     <p>SEND US A MESSAGE</p>
+
     <form onSubmit={formik.handleSubmit} className="messagebox">
     
       
@@ -84,15 +85,18 @@ export default function () {
  </div>
  <div className="grid">
  <div className="address">
- <h1>Visit Us</h1> 
+ <h1 >Visit Us</h1> 
+ <p className="line p1"></p>
  <FaMapMarkerAlt className="icon" />
  <p>15 WEST SQUARE DRIVE APT 6, ROCHESTER, NEW YORK, 14623</p></div>
  <div className="phone">
  <h1>PHONE</h1> 
+ <p className="line p1"></p>
  <FaPhoneAlt className="icon" />
  <p>+1 585 360 2434</p></div>
  <div className="email">
  <h1>EMAIL</h1>
+ <p className="line p1"></p>
  <AiOutlineMail className="icon" />
  <p>info@vdigbiz.com</p> </div>
  

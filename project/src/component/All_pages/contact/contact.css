@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/map.jpeg);
+    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/cont.jpeg);
     background-position: bottom;
     background-size: cover;
     color: white;
@@ -34,7 +34,7 @@
 .contact_page h1{
 
     font-size: 2rem;
-    color: darkblue;
+    color: white;
 }
 
 .formbox
@@ -88,11 +88,12 @@ border-radius: 1vh;
  display: grid;
  grid-template-columns: 33% 33% 33%;
  grid-template-areas: "address phone email";
- height:20vh;
+ height:30vh;
 text-align: center;
 padding: 5vh;
 margin-top: 2vh;
- 
+background-color:rgb(158, 172, 187);
+ color: darkblue;
 }
 .grid h1{
   color:darkblue;
@@ -139,4 +140,12 @@ color:darkblue;
 .label
 {
   color: rgb(42, 42, 71);
+}
+.p1{
+  height: 4px;
+  width: 80px;
+  margin-left: 41%;
+  background-color: rgb(210, 102, 30);
+  border-radius: 5px;
+ 
 }

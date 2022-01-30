@@ -1,0 +1,57 @@
+.Company_content_home{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  box-sizing: border-box;
+}
+.about_heading_home p{
+   font-size: 1rem;
+   text-align: center;
+}
+.home_about_images{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+  
+    
+}
+.about_heading_home .heading_home{
+    color: darkblue;
+    font-size: 1rem;
+    
+}
+.home_aboutteam_content{
+   text-align: justify;
+   font-size: 11.8pt;
+   line-height: 1.4rem;
+  
+
+}
+.Company_content_home a .read_more{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(145, 177, 238);
+    color: darkblue;
+    font-weight: bold;
+    font-size: 0.7rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .Company_content_home a .read_more:hover {
+    background-color: darkblue;
+    color: #fff;
+  }
+.Company_content_home a{
+    text-decoration: none;
+}
+.aboutus_line_home{
+    width: 12vh;
+    margin: 2% 0 0 5%;
+}
+.our_team_line{
+    width: 13vh;
+    margin: 2% 0 0 8%;
+}
