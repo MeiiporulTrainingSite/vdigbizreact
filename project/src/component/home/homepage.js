@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Div from "../Div/div"
 import "./homepage.css";
 

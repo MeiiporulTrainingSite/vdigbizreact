@@ -1,0 +1,37 @@
+.home_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../images/image2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 100;
+    }
+.home_page h1{
+    font-size: 2rem;
+}
+
+.about_heading p {
+    font-size: 2rem;  
+    text-align: center; 
+}
+.about_content{
+    display :grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'image first';
+}
+.about_first{
+    margin-top: 40px;
+    grid-area: first;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.aboutimg{
+    border-radius: 300px;
+    height: 300px;
+    width:300px;
+    grid-area: image;
+    
+     }
