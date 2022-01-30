@@ -11,8 +11,8 @@ import "./App.css";
 export default function App() {
   return <Layout>
     <Switch>
-      <Route path="/" exact><HomePage/></Route>
-      <Route path="/about"><AboutPage/></Route>
+      <Route path="/" exact><HomePage /></Route>
+      <Route path="/about"><AboutPage /></Route>
       <Route path="/team"></Route>
       <Route path="/service"></Route>
       <Route path="/analytics"><Analytics/></Route>

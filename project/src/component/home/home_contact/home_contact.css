@@ -70,6 +70,7 @@ border-bottom: 1px solid darkblue;
     display: grid;
     grid-template-columns: 30% 10% 40%;
     gap: 10%;
+    box-shadow: 0 5px 10px blue;
 }
 .home_touch p{
     font-size: 1rem;
