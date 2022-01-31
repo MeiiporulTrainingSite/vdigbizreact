@@ -1,10 +1,6 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .service_page{
+      
         display: flex;
         justify-content: center;
         align-items: center;
@@ -21,6 +17,8 @@
     }
 
 .servicecontent{
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,13 +76,13 @@
     transition: 0.5s;
 
 }
-h3{
+.card h3{
     font-size: 20px;
     font-weight: 600;
     color: #1f194c;
     margin:1em 0;
 }
-p{
+.card p{
     color:#575a7b;
     font-size: 15px;
     line-height:1.6;
@@ -122,7 +120,7 @@ p{
     color:#f0f0f0;
 }
 @media screen and (min-width:768px){
-    section{
+    .service_maincontent{
         padding:0 2em;
     }
     .column{
@@ -131,7 +129,7 @@ p{
     }
 }
 @media screen and (min-width:992px) {
-    section{
+    .service_maincontent{
         padding:1em 3em;
     }
     .column{

@@ -1,37 +1,48 @@
-.home_page{
+.about_page{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/image2.jpg);
+    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/about.png);
     background-position: bottom;
     background-size: cover;
     color: white;
     text-shadow: 0 0 10px black;
-    font-weight: 100;
-    }
-.home_page h1{
+    font-weight: 100;   
+    
+}
+.about_page h1{
     font-size: 2rem;
-}
-
-.about_heading p {
-    font-size: 2rem;  
-    text-align: center; 
-}
-.about_content{
-    display :grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'image first';
-}
-.about_first{
-    margin-top: 40px;
-    grid-area: first;
-    font-size: 1rem;
-    line-height: 30px;
+    color: white;
 }
 .aboutimg{
-    border-radius: 300px;
-    height: 300px;
-    width:300px;
-    grid-area: image;
+padding:50px;
+height:500px;
+width:500px;
+border-radius: 500px;
+}
+.about_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    height:70vh;
+    padding:10px;
+  }
+   hr {
+    width: 15%;
+    height: 3px;
+    margin-left: 10px;  
+    background-color:orangered;
+   
+  }
+
+
+
     
-     }
+   
+    
+   
+ 
+    
+    
+   

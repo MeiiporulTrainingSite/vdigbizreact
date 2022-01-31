@@ -7,6 +7,8 @@ import AboutPage from './component/All_pages/About/about';
 import Analytics from './component/All_pages/services/analytics';
 import Application from './component/All_pages/services/application_dev.js';
 import Mobileapp from './component/All_pages/services/mobile_app';
+import Analytics from './component/All_pages/Services/analytics';
+import Mobileapp from './component/All_pages/Services/mobile_app';
 import Service from './component/All_pages/mainservice/Service';
 import "./App.css";
 import Maintanence from './component/All_pages/services/appliction Maintenance';
