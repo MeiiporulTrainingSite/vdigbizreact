@@ -4,8 +4,8 @@ import { Switch,Route } from 'react-router-dom';
 import HomePage from './component/home/homepage';
 import Contactpage from "./component/All_pages/contact/contactpage.js"
 import AboutPage from './component/All_pages/About/about';
-import Analytics from './component/All_pages/services/analytics';
-import Mobileapp from './component/All_pages/services/mobile_app';
+import Analytics from './component/All_pages/Services/analytics';
+import Mobileapp from './component/All_pages/Services/mobile_app';
 import Service from './component/All_pages/mainservice/Service';
 
 import "./App.css";
