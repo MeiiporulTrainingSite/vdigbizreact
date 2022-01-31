@@ -5,13 +5,13 @@ import './maintanence.css';
 
 export default function Maintanence() {
     return <div>
-  <Div className="home_page">
-  <img className='aboutimg' src={require('../../images/maintanence.jpeg')} alt="maintenance"/>
+  <Div className="maintanence_page">
+  
    <h1>APPLICATION MAINTENANCE</h1>
   </Div>
   
   <div className ="maintenance">
-   <div className="content2">
+   
        <p>
        In the fast-paced, technology-driven world of today, it is quality and 
        customer satisfaction that truly resonates with people. Between the mundane 
@@ -28,7 +28,7 @@ export default function Maintanence() {
         creating customized solutions to mitigate defects and debugging of the 
         applications. 
        </p>
-       </div>
+       
        </div>   
       </div>;
       

@@ -1,9 +1,9 @@
-.about_page{
+ .about_page{
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/about.png);
-    background-position: bottom;
+    background-position:center;
     background-size: cover;
     color: white;
     text-shadow: 0 0 10px black;
@@ -35,14 +35,7 @@ border-radius: 500px;
     background-color:orangered;
    
   }
-
-
-
-    
-   
-    
-   
- 
-    
-    
-   
+  .about_first{
+      margin-top:20px;
+      text-align: justify;
+  }

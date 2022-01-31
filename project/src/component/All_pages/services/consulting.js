@@ -5,12 +5,11 @@ import './consulting.css';
 
 export default function Consulting() {
     return <div>
-  <Div className="home_page">
-  <img className='aboutimg' src={require('../../images/consulting.jpeg')} alt="consulting"/>
-   <h1>Consulting</h1>
+  <Div className="consulting_page">
+     <h1>CONSULTING</h1>
   </Div>
   
-  <div class="consulting">        
+  <div className="consulting">        
       <div className='content_consult'>
       <p className="consult">
           
@@ -23,7 +22,7 @@ business goals and strategy of the client. We help businesses scale their develo
 teams by utilizing our experienced engineers.</p>
 </div> 
 <h1>Business Consulting </h1>
-<ul>
+<ul className="consult_list">
 <li>Improve performance & efficiency</li>
 
 <li>Suggest right business solution</li>

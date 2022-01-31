@@ -14,11 +14,11 @@ export default function Nav() {
          <p className="home_service"><Link to ="/service"> Service</Link></p>
           <ul class="service-list-home">
             <li><Link to ="/analytics"> Analytics</Link></li>
-            <li><Link to ="/appliction_dev"> Application Development</Link></li>
+            <li><Link to ="/application_dev"> Application Development</Link></li>
             <li><Link to ="/mobile_app"> Mobile App Development</Link></li>
             <li><Link to ="/consulting"> Consulting</Link></li>
             <li><Link to ="/product"> Product Development</Link></li>
-            <li><Link to ="/appliction Maintenance"> Application Maintenance</Link></li>
+            <li><Link to ="/applicationMaintenance"> Application Maintenance</Link></li>
           </ul>
         </li>
         <li><Link to="/contact">Contact</Link></li>

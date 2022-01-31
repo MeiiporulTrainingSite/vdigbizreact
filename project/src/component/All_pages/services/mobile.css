@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(6, 59, 92, 0.5),rgba(9, 113, 179, 0.5)),url(../../images/mobileapp.jpeg);
-    background-position: bottom;
+    background-position:center;
     background-size: cover;
     color: white;
     text-shadow: 0 0 10px black;
@@ -16,6 +16,7 @@
 .mobile_parent {  
   height:70vh; 
   padding:90px;
+  text-align: justify;
  }
 
  .mobile_head{

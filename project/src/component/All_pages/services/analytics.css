@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/Analytics.jpg);
-    background-position: bottom;
+    background-position:center;
     background-size: cover;
     color: white;
     text-shadow: 0 0 10px black;
@@ -17,6 +17,7 @@
 .analytics_parent {  
   height:90vh; 
   padding:90px;
+  text-align: justify;
  }
  .list_first,.list_second{
      padding:20px;
