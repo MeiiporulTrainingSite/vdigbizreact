@@ -11,6 +11,8 @@ import Service from './component/All_pages/mainservice/Service';
 import "./App.css";
 import Maintanence from './component/All_pages/Services/applicationMaintenance';
 import Consulting from './component/All_pages/Services/consulting';
+import Product from './component/All_pages/Services/productdevelop';
+import Team from './component/All_pages/Team/team';
 
 
 export default function App() {
@@ -18,7 +20,7 @@ export default function App() {
     <Switch>
       <Route path="/" exact><HomePage /></Route>
       <Route path="/about"><AboutPage /></Route>
-      <Route path="/team"></Route>
+      <Route path="/team"><Team/></Route>
       <Route path="/service"><Service /></Route>
       <Route path="/analytics"><Analytics/></Route>
       <Route path="/application_dev"><Application/></Route>
@@ -26,7 +28,9 @@ export default function App() {
       <Route path="/consulting"><Consulting/></Route>
       <Route path="/contact"><Contactpage /></Route>
       <Route path="/mobile_app"><Mobileapp/></Route>
+      <Route path="/product"><Product/></Route>
           </Switch>
+
   </Layout>;
 }
 
