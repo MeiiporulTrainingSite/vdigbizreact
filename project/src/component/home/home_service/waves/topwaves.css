@@ -1,0 +1,82 @@
+#topWaves{
+   
+    position: relative;
+}
+.custom-shape-divider-top-1643639205 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643639205 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 192px;
+}
+
+.custom-shape-divider-top-1643639205 .shape-fill {
+    fill:rgba(101, 192, 248, 0.5);
+}
+.custom-shape-divider-top-16436392051 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-16436392051 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 152px;
+}
+
+.custom-shape-divider-top-16436392051 .shape-fill {
+    fill:#fff;
+}
+.custom-shape-divider-top-16436392052 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-16436392052 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 152px;
+}
+
+.custom-shape-divider-top-16436392052 .shape-fill {
+    fill:rgba(134, 199, 240, 0.5);
+}
+.custom-shape-divider-top-16436392053 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-16436392053 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 122px;
+}
+
+.custom-shape-divider-top-16436392053 .shape-fill {
+    fill:#fff;
+}
+
+

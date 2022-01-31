@@ -13,9 +13,7 @@
 .home_about_images{
     height: 250px;
     width: 250px;
-    border-radius: 250px;
-  
-    
+    border-radius: 250px;     
 }
 .about_heading_home .heading_home{
     color: darkblue;

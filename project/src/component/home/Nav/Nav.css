@@ -31,8 +31,8 @@
     display: none;
     position: absolute;
     top: 100%;
-    right: 12px;
-    width: 210px;
+    right: 2%;
+    width: 35vh;
     list-style: none;
     background-color: rgb(65, 180, 225);
     padding: 10px;
@@ -54,7 +54,7 @@
   li:hover .service-list-home {
    
     display: block;
-    top: 40px;
+    top: 7%;
   }
   .menu li a:hover {
 color:darkblue
