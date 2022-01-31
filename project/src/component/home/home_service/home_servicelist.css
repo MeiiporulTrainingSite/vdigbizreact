@@ -1,0 +1,14 @@
+.homeservicelist_images{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+   
+}
+.homeservice_list p{
+font-size: 13.5pt;
+color: white;
+}
+.homeservice_list{
+    text-align: center;
+}
+
