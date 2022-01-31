@@ -4,9 +4,14 @@
     border-radius: 200px;
    
 }
-.homeservice_list p{
-font-size: 13.5pt;
+.homeservicelist_images:hover{
+border: 1px solid darkblue;
+box-shadow: inset 0 0 20px darkblue;
+}
+.homeservice_list p a{
+font-size: 11.5pt;
 color: white;
+text-decoration: none;
 }
 .homeservice_list{
     text-align: center;

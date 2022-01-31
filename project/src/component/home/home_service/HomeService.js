@@ -8,37 +8,43 @@ export default function HomeService() {
         serviceImage:"analytics.jpeg",
         servicealt:"analytics",
         servicelist:"Analytics",
-        className:"homeAnalytics"
+        className:"homeAnalytics",
+        link:"/analytics"
     },
     {
         serviceImage:"application.jpeg",
         servicealt:"application development",
         servicelist:"Appliction Development",
-        className:"homeApplication_dev"
+        className:"homeApplication_dev",
+        link:"/application_dev"
     },
     {
         serviceImage:"mobileapp.jpeg",
         servicealt:"mobile app development",
         servicelist:"Mobile App Development",
-        className:"homeMobile"
+        className:"homeMobile",
+        link:"/mobile_app"
     },
     {
         serviceImage:"consulting.jpeg",
         servicealt:"consulting",
         servicelist:"Consulting",
-        className:"homeConsulting"
+        className:"homeConsulting",
+        link:"/consulting"
     },
     {
         serviceImage:"product.png",
         servicealt:"product development",
         servicelist:"Product development",
-        className:"homeProduct"
+        className:"homeProduct",
+        link:"/product"
     },
     {
         serviceImage:"team.jpeg",
         servicealt:"application maintenance",
         servicelist:"Application Maintenance",
-        className:"homeApplication_main"
+        className:"homeApplication_main",
+        link:"/applicationMaintenance"
     }
 ]
   return (
@@ -63,10 +69,12 @@ export default function HomeService() {
           <div className="home_servicelist_flex">
           {serviceData.map((service,index)=>(
               <HomeServiceList 
+              key={index+1}
               serviceImage={service.serviceImage}
               servicealt={service.servicealt}
               servicelist={service.servicelist}
               className={service.className}
+              link={service.link}
               />
           ))}
           </div>
