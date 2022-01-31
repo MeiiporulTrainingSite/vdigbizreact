@@ -1,0 +1,12 @@
+.home_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/image2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 100;
+    }
+    
