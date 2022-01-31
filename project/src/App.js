@@ -20,7 +20,6 @@ export default function App() {
       <Route path="/analytics"><Analytics/></Route>
       <Route path="/appliction_dev"></Route>
       <Route path="/contact"><Contactpage /></Route>
-      
       <Route path="/mobile_app"><Mobileapp/></Route>
     </Switch>
   </Layout>;

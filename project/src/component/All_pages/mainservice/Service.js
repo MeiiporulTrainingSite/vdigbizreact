@@ -14,16 +14,14 @@ return(
         <h1>Services</h1>
 </Div>
     <div className='servicecontent'>
-        <h1>OUR SERVICES</h1>
+        <h1>We love what we offer</h1>
         <p>Innovation. Collaboration. Interoperability. Scale. Speed. These elements are necessary to meet the demands of increased synergies and greater return on investment. The amalgamation of technology and healthcare in transforming the future is multifaceted, and embracing openness ─ in platforms, technology and culture and this is a key to getting where we need to go. Our tools and processes are designed to work for today and think for tomorrow. </p>
       </div>    
 
     <div className = 'servicecontainer'>
 
         <section className='service_maincontent'>        
-            <div className = 'row'>
-            <h2 className = 'section-heading'>We love what we offer</h2>
-            </div>
+            
             <div className = 'row'>
                 <div className = 'column'>
                     <div className = 'card'>
