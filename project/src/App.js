@@ -4,11 +4,13 @@ import { Switch,Route } from 'react-router-dom';
 import HomePage from './component/home/homepage';
 import Contactpage from "./component/All_pages/contact/contactpage.js"
 import AboutPage from './component/All_pages/About/about';
-import Analytics from './component/All_pages/services/analytics';
-import Mobileapp from './component/All_pages/services/mobile_app';
+import Application from './component/All_pages/Services/application_dev.js';
+import Analytics from './component/All_pages/Services/analytics';
+import Mobileapp from './component/All_pages/Services/mobile_app';
 import Service from './component/All_pages/mainservice/Service';
-
 import "./App.css";
+import Maintanence from './component/All_pages/Services/applicationMaintenance';
+import Consulting from './component/All_pages/Services/consulting';
 
 export default function App() {
   return <Layout>
@@ -18,10 +20,12 @@ export default function App() {
       <Route path="/team"></Route>
       <Route path="/service"><Service /></Route>
       <Route path="/analytics"><Analytics/></Route>
-      <Route path="/appliction_dev"></Route>
+      <Route path="/application_dev"><Application/></Route>
+      <Route path="/applicationMaintenance"><Maintanence/></Route>
+      <Route path="/consulting"><Consulting/></Route>
       <Route path="/contact"><Contactpage /></Route>
-      
       <Route path="/mobile_app"><Mobileapp/></Route>
-    </Switch>
+          </Switch>
   </Layout>;
 }
+

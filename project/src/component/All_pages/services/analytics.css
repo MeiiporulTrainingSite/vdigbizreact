@@ -1,8 +1,9 @@
-.home_page{
+.analytics_page{
+      
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/image2.jpg);
+    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/Analytics.jpg);
     background-position: bottom;
     background-size: cover;
     color: white;
@@ -10,38 +11,17 @@
     font-weight: 100;
     
 }
-.home_page h1{
+.analytics_page h1{
     font-size: 2rem;
 }
-
-
-.about_us {
-  display: flex;  
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  box-sizing: border-box;
-  
-}
-.about_heading p {
-    font-size: 2rem;
-    display:flex;
-}
-.about_content{
-    display :grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'image first';
-}
-.about_first{
-    margin-top: 40px;
-    grid-area: first;
-    font-size: 1rem;
-    line-height: 30px;
-}
-.aboutimg{
-    border-radius: 300px;
-    height: 300px;
-    width:300px;
-    grid-area: image;
-    margin-left: 300px;
+.analytics_parent {  
+  height:90vh; 
+  padding:90px;
  }
+ .list_first,.list_second{
+     padding:20px;
+     margin-left: 50px;
+ }
+.analytics_second,.analytics_third{
+    margin-top: 10px;
+}
