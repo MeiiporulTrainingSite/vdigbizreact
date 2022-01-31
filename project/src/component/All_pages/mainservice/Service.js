@@ -29,10 +29,10 @@ function Service() {
                                 <Link to="/analytics">
                                     <div className='icon-wrapper'>
                                         <img src={analytics} alt='analytics' />
-                                    </div>
+                                    </div> </Link>
                                     <h3>Analytics</h3>
                                     <p>Our services help clients use data and analytics to create new business models and revenue streams – all while ensuring security, quality and regulatory compliance of data.</p>
-                                </Link>
+                               
                             </div>
                         </div>
                         <div className='column'>
@@ -40,11 +40,11 @@ function Service() {
                                 <Link to="/application_dev">
                                     <div className='icon-wrapper'>
                                         <img src={appdev} alt='appdev' />
-                                    </div>
+                                    </div></Link>
                                     <h3>Application Development</h3>
                                     <p>Provide scalable enterprises application development including web, desktop, cloud-based, distributed
                                         and real-time applications and solutions.</p>
-                                </Link>
+                                
                             </div>
                         </div>
                         <div className='column'>
@@ -52,10 +52,10 @@ function Service() {
                                 <Link to="/mobile_app">
                                     <div className='icon-wrapper'>
                                         <img src={mobdev} alt='mobdev' />
-                                    </div>
+                                    </div></Link>
                                     <h3>Mobile Development</h3>
                                     <p>Expertise in delivering scalable, interactive, innovative & robust and foster with the emerging trends of different mobile platforms.
-                                        .</p></Link>
+                                        .</p>
                             </div>
                         </div>
                         <div className='column'>
@@ -63,11 +63,11 @@ function Service() {
                                 <Link to="/consulting">
                                     <div className='icon-wrapper'>
                                         <img src={consulting} alt='consulting' />
-                                    </div>
+                                    </div></Link>
                                     <h3>Consulting</h3>
                                     <p>Focus on our clients critical issues and opportunities through strategy, management, performance improvement,
                                         technology, information security, digital transformation and advanced analytics.</p>
-                                </Link>
+                                
                             </div>
                         </div>
                         <div className='column'>
@@ -75,11 +75,11 @@ function Service() {
                                 <Link to="/product">
                                     <div className='icon-wrapper'>
                                         <img src={proddev} alt='proddev' />
-                                    </div>
+                                    </div></Link>
                                     <h3>Product Development</h3>
                                     <p>Understands product development to its core and provide high-quality product development services
                                         and incorporate new methodologies to offer software product development benefits to our clients.</p>
-                                </Link>
+                                
                             </div>
                         </div>
                         <div className='column'>
@@ -87,10 +87,10 @@ function Service() {
                                 <Link to="/applicationMaintenance">
                                     <div className='icon-wrapper'>
                                         <img src={appmaintain} alt='appmaintain' />
-                                    </div>
+                                    </div>  </Link>
                                     <h3>Application Maintenance</h3>
                                     <p>Enhancing functionality, building and deploying new versions, creating customized solutions to mitigate defects and debugging of the applications</p>
-                                </Link>
+                              
                             </div>
                         </div>
                     </div>

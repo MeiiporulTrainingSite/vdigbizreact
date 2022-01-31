@@ -3,20 +3,92 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(6, 59, 92, 0.5),rgba(9, 113, 179, 0.5)),url(../../images/team.jpeg);
-    background-position:bottom;
+    background-position:top;
     background-size: cover;
     
 }
 .team_page h1{
     font-size: 2rem;
 }
-  .container {
+.teampart1{
+  margin:20px;
+  padding:20px;
+  font-weight: bold;
+  text-align: center;
+}
+.cardteam{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin:50px 50px;
+}
+.teampart2{
+  padding:50px;
+  border:1px solid black;
+  box-shadow:  0 0 15px rgba(0, 0, 0, 0.8);
+  margin:0px 30px 0 10px;
+  width:50%;
+  text-indent: 50px;
+  text-align: justify;
+}
+.cardimg{
+  border:1px solid black;
+  height:300px;
+  width:300px;
+  border-radius:250px;
+  margin:20px 50px;
+}
+.cardimg >img{
+  height:300px;
+  width:300px;
+  border-radius:250px;}
+
+/* .teamcontent{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin:20px;
+  padding:20px;
+}
+.cardteam{
+  text-align: justify;
+  margin: 20px 50px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.teampart1{
+  padding:20px;
+ font-weight: bold;
+ text-align: center;
+ flex-wrap: wrap;
+ 
+}
+.teampart2{
+  padding:20px;
+  border:1px solid black;
+  box-shadow:  0 0 15px rgba(0, 0, 0, 0.8);
+}
+.cardimg{
+  border:1px solid black;
+  height:300px;
+  width:300px;
+  border-radius:250px;
+  margin:20px 70px;
+}
+.cardimg >img{
+  height:300px;
+  width:300px;
+  border-radius:250px;
+} */
+
+  /* .teamcontainer {
     font-size: 30px; font-weight: bold;
     text-align: center;
     flex-wrap: wrap;
     margin:30px 70px;
   } 
-  .card{
+  .cardteam{
     border: 0.05em solid rgb(255, 254, 254);
     width:55%; font-size: 25px; text-align: justify;
     height:70%;
@@ -29,6 +101,8 @@
   .cardimg img{
     width:500px;
     height:470px; 
-    border-radius: 52px; position: absolute;
-    top:50%;left:50%;transform: translate(40%,50%);
-  }
+    border-radius: 100px; 
+    position: absolute;
+    top:50%;left:50%;
+    transform: translate(50%,50%);
+  } */
