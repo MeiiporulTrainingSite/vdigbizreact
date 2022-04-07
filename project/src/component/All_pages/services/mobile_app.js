@@ -6,7 +6,7 @@ import './mobile.css';
 export default function Mobileapp() {
   return <div>
 <Div className="mobile_page">
- <h1>Mobile App Development</h1>
+ <h1>MOBILE APP DEVELOPMENT</h1>
 </Div>
 
 <div class="mobile_parent">   

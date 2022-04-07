@@ -1,0 +1,32 @@
+.product_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(6, 59, 92, 0.5),rgba(9, 113, 179, 0.5)),url(../../images/pdtdev.jpg);
+    background-position:bottom;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 100;    
+}
+.product_page h1{
+    font-size: 2rem;
+}
+
+.product_content{
+    margin-left:100px; 
+}
+.product_content .content{
+    text-align: justify;
+    padding:20px;
+    margin-right: 50px;
+    text-indent:50px;
+    line-height:30px;
+}
+.product_list {
+    list-style-type: circle;
+    text-align: start;
+    list-style-position:inside;
+    margin:20px 20px;
+    
+}

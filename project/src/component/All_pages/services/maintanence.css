@@ -1,0 +1,23 @@
+.maintanence_page{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(34,147,215,0.5),rgba(34,147,215,0.5)),url(../../images/maintanence.jpeg);
+    background-position:cover;
+    background-size:cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 100;
+    
+}
+.maintanence_page h1{
+    font-size: 2rem;
+}
+.maintenance{
+    padding:90px;
+    margin-left:190px;
+    text-align: justify;
+}
+.maintenance p{
+    margin-bottom:10px;
+}
