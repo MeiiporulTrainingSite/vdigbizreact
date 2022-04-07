@@ -18,7 +18,7 @@ export default function Nav() {
             <li><Link to ="/mobile_app"> Mobile App Development</Link></li>
             <li><Link to ="/consulting"> Consulting</Link></li>
             <li><Link to ="/product"> Product Development</Link></li>
-            <li><Link to ="/appliction Maintenance"> Application Maintenance</Link></li>
+            <li><Link to ="/applictionMaintenance"> Application Maintenance</Link></li>
           </ul>
         </li>
         <li><Link to="/contact">Contact</Link></li>
